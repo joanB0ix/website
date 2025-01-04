@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Section Should match snapshot 1`] = `
+exports[`WhoamiSection Should match snapshot 1`] = `
 <DocumentFragment>
   <div
     class="my-6"
@@ -8,10 +8,10 @@ exports[`Section Should match snapshot 1`] = `
     <h2
       class="font-bold pb-2"
     >
-      Test Title
+      Who am I?
     </h2>
     <p>
-      Test Content
+      I am a software developer passionate about building web applications.
     </p>
   </div>
 </DocumentFragment>

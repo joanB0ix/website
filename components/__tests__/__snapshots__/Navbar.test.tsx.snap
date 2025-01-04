@@ -3,7 +3,7 @@
 exports[`Navbar Should match snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="h-20 flex items-center justify-between"
+    class="mt-5 h-56 flex items-center justify-between"
   >
     <h1
       class="font-bold"

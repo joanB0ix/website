@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExperienceSection Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="my-6"
+  >
+    <h2
+      class="font-bold pb-2"
+    >
+      Experience
+    </h2>
+    <div
+      class="flex flex-col gap-y-2"
+    >
+      <div>
+        <div
+          class="flex justify-between mb-1"
+        >
+          <div
+            class="flex flex-col"
+          >
+            <h3
+              class="font-medium"
+            >
+              Company One
+            </h3>
+            <span>
+              Software Engineer
+            </span>
+          </div>
+          <div
+            class="flex flex-col text-right"
+          >
+            <div>
+              New York, NY
+            </div>
+            <div>
+              January 2020, March 2022
+            </div>
+          </div>
+        </div>
+        <ul
+          class="list-disc pl-6"
+        >
+          <li
+            class="text-pretty"
+          >
+            <p>
+              Developed web applications
+            </p>
+          </li>
+          <li
+            class="text-pretty"
+          >
+            <p>
+              Implemented CI/CD pipelines
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div
+          class="flex justify-between mb-1"
+        >
+          <div
+            class="flex flex-col"
+          >
+            <h3
+              class="font-medium"
+            >
+              Company Two
+            </h3>
+            <span>
+              Senior Developer
+            </span>
+          </div>
+          <div
+            class="flex flex-col text-right"
+          >
+            <div>
+              San Francisco, CA
+            </div>
+            <div>
+              April 2022, Present
+            </div>
+          </div>
+        </div>
+        <ul
+          class="list-disc pl-6"
+        >
+          <li
+            class="text-pretty"
+          >
+            <p>
+              Led team of developers
+            </p>
+          </li>
+          <li
+            class="text-pretty"
+          >
+            <p>
+              Architected scalable systems
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

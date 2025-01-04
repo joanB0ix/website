@@ -6,7 +6,7 @@ exports[`ProjectsSection Should match snapshot 1`] = `
     class="my-6"
   >
     <h2
-      class="font-semibold pb-2"
+      class="font-bold pb-2"
     >
       My Projects
     </h2>

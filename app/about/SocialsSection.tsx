@@ -1,21 +1,22 @@
+import { Social } from "@/config/socialList";
 import Link from "next/link";
 import { Section } from "../../components/Section";
 
-export default function SocialsSection() {
+export interface SocialsSectionProps {
+  socialList: Social[];
+}
+
+export default function SocialsSection({ socialList }: SocialsSectionProps) {
   return (
     <Section title="My Socials">
       <ul className="list-disc pl-6">
-        <li className="underline">
-          <Link href="https://github.com/joanB0ix">GitHub</Link>
-        </li>
-        <li className="underline">
-          <Link href="https://x.com/JoanBoixAv">X (Formerly twitter)</Link>
-        </li>
-        <li className="underline">
-          <Link href="https://www.linkedin.com/in/joanboixavalos/">
-            LinkedIn
-          </Link>
-        </li>
+        {socialList.map((social) => {
+          return (
+            <li className="underline" key={social.name}>
+              <Link href={social.url}>{social.name}</Link>
+            </li>
+          );
+        })}
       </ul>
     </Section>
   );

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialsSection Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="my-6"
+  >
+    <h2
+      class="font-bold pb-2"
+    >
+      My Socials
+    </h2>
+    <ul
+      class="list-disc pl-6"
+    >
+      <li
+        class="underline"
+      >
+        <a
+          href="https://github.com/example"
+        >
+          GitHub
+        </a>
+      </li>
+      <li
+        class="underline"
+      >
+        <a
+          href="https://linkedin.com/in/example"
+        >
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
