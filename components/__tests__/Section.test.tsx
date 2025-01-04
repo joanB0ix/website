@@ -1,5 +1,5 @@
-import { Section } from "@/components/Section";
 import { render, screen } from "@testing-library/react";
+import { Section } from "../Section";
 
 describe("Section", () => {
   const getTestView = () => {
