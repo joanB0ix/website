@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Should match snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="h-20 flex items-center justify-between"
+  >
+    <h1
+      class="font-bold"
+    >
+      Joan Boix Àvalos
+    </h1>
+    <div
+      data-testid="theme-toggle-button"
+    />
+  </nav>
+</DocumentFragment>
+`;
