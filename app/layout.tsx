@@ -45,7 +45,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={firaCode.variable}>{children}</body>
+      <body
+        className={`${firaCode.variable} light:bg-white light:text-black dark:bg-black dark:text-white`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
