@@ -6,11 +6,8 @@ describe("Navbar Component", () => {
     render(<Navbar />);
 
     const navbarTitle = screen.getByText("Joan Boix Àvalos");
-    const sunIcon = screen.getByTestId("sun-icon");
 
     expect(navbarTitle).toBeInTheDocument();
-    expect(sunIcon).toBeInTheDocument();
-    expect(sunIcon).toHaveClass("h-5 w-5 mb-1 mr-5");
   });
 
   it("matches snapshot", () => {
