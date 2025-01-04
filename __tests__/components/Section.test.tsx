@@ -3,7 +3,11 @@ import { render, screen } from "@testing-library/react";
 
 describe("Section", () => {
   const getTestView = () => {
-    return <Section title="Test Title" content={<p>Test Content</p>} />;
+    return (
+      <Section title="Test Title">
+        <p>Test Content</p>
+      </Section>
+    );
   };
 
   it("Should render", () => {

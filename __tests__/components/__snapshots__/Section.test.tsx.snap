@@ -10,11 +10,9 @@ exports[`Section Should match snapshot 1`] = `
     >
       Test Title
     </h2>
-    <div>
-      <p>
-        Test Content
-      </p>
-    </div>
+    <p>
+      Test Content
+    </p>
   </div>
 </DocumentFragment>
 `;
