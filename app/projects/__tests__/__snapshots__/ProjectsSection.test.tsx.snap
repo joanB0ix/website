@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectsSection Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="my-6"
+  >
+    <h2
+      class="font-semibold pb-2"
+    >
+      My Projects
+    </h2>
+    <ul
+      class="list-disc pl-6"
+    >
+      <li>
+        <span
+          class="underline"
+        >
+          Project One
+        </span>
+         Description for Project One.
+      </li>
+      <li>
+        <span
+          class="underline"
+        >
+          Project Two
+        </span>
+         Description for Project Two.
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
