@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.joanboix.dev
+
+# Sitemaps
+Sitemap: https://www.joanboix.dev/sitemap.xml
