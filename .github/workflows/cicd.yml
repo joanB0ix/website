@@ -36,7 +36,6 @@ jobs:
 
     environment:
       name: production
-      url: ${{ steps.deploy.outputs.vercel_url }}
 
     steps:
       - name: Checkout repository
@@ -52,8 +51,7 @@ jobs:
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: "--prod --confirm"
           working-directory: ./
-        env:
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
