@@ -11,7 +11,7 @@ import { WHOAMI } from "@/config/whoami";
 
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col font-fira-code w-2/5 min-w-96 m-auto ">
+    <div className="h-screen flex flex-col font-fira-code w-2/5 min-w-96 px-4 m-auto ">
       <Navbar />
       <main className="flex-grow">
         <WhoamiSection content={WHOAMI} />

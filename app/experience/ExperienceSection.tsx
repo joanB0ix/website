@@ -14,12 +14,21 @@ export default function ExperienceSection({
         {experienceList.map((experience) => {
           return (
             <div key={experience.start_month}>
-              <div className="flex justify-between mb-1">
+              <div className="flex flex-col sm:flex-row justify-between mb-1">
                 <div className="flex flex-col">
                   <h3 className="font-medium">{experience.company}</h3>
                   <span>{experience.position}</span>
+                  <div className="block sm:hidden mt-1">
+                    <div>{experience.location}</div>
+                    <div>
+                      {experience.start_month} {experience.start_year},{" "}
+                      {experience.end_month
+                        ? experience.end_month + " " + experience.end_year
+                        : "Present"}
+                    </div>
+                  </div>
                 </div>
-                <div className="flex flex-col text-right">
+                <div className="hidden sm:flex flex-col text-right">
                   <div>{experience.location}</div>
                   <div>
                     {experience.start_month} {experience.start_year},{" "}
