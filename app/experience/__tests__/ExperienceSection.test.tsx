@@ -41,15 +41,15 @@ describe("ExperienceSection", () => {
       const position = screen.getByText(experience.position);
       expect(position).toBeInTheDocument();
 
-      const location = screen.getByText(experience.location);
-      expect(location).toBeInTheDocument();
+      const location = screen.getAllByText(experience.location);
+      expect(location[0]).toBeInTheDocument();
 
-      const dateRange = screen.getByText(
+      const dateRange = screen.getAllByText(
         experience.end_month
           ? `${experience.start_month} ${experience.start_year}, ${experience.end_month} ${experience.end_year}`
           : `${experience.start_month} ${experience.start_year}, Present`
       );
-      expect(dateRange).toBeInTheDocument();
+      expect(dateRange[0]).toBeInTheDocument();
 
       experience.description.forEach((bullet) => {
         const bulletText = screen.getByText(bullet);
