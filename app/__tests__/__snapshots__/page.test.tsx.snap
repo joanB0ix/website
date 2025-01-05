@@ -3,7 +3,7 @@
 exports[`Home component snapshot renders correctly and matches snapshot 1`] = `
 <div>
   <div
-    class="h-screen flex flex-col font-fira-code w-2/5 min-w-96 m-auto "
+    class="h-screen flex flex-col font-fira-code w-2/5 min-w-96 px-4 m-auto "
   >
     <main
       class="flex-grow"

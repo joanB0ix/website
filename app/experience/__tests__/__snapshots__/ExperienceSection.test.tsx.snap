@@ -15,7 +15,7 @@ exports[`ExperienceSection Should match snapshot 1`] = `
     >
       <div>
         <div
-          class="flex justify-between mb-1"
+          class="flex flex-col sm:flex-row justify-between mb-1"
         >
           <div
             class="flex flex-col"
@@ -28,9 +28,19 @@ exports[`ExperienceSection Should match snapshot 1`] = `
             <span>
               Software Engineer
             </span>
+            <div
+              class="block sm:hidden mt-1"
+            >
+              <div>
+                New York, NY
+              </div>
+              <div>
+                January 2020, March 2022
+              </div>
+            </div>
           </div>
           <div
-            class="flex flex-col text-right"
+            class="hidden sm:flex flex-col text-right"
           >
             <div>
               New York, NY
@@ -61,7 +71,7 @@ exports[`ExperienceSection Should match snapshot 1`] = `
       </div>
       <div>
         <div
-          class="flex justify-between mb-1"
+          class="flex flex-col sm:flex-row justify-between mb-1"
         >
           <div
             class="flex flex-col"
@@ -74,9 +84,19 @@ exports[`ExperienceSection Should match snapshot 1`] = `
             <span>
               Senior Developer
             </span>
+            <div
+              class="block sm:hidden mt-1"
+            >
+              <div>
+                San Francisco, CA
+              </div>
+              <div>
+                April 2022, Present
+              </div>
+            </div>
           </div>
           <div
-            class="flex flex-col text-right"
+            class="hidden sm:flex flex-col text-right"
           >
             <div>
               San Francisco, CA
