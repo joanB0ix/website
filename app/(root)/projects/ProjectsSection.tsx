@@ -1,5 +1,6 @@
 import { Section } from "@/components/Section";
 import { Project } from "@/config/projectList";
+import Link from "next/link";
 
 export interface ProjectSectionProps {
   projectList: Project[];
@@ -12,7 +13,9 @@ export default function ProjectsSection({ projectList }: ProjectSectionProps) {
         {projectList.map((project) => {
           return (
             <li key={project.title}>
-              <span className="underline">{project.title}</span>{" "}
+              <Link className="underline" href={project.url}>
+                {project.title}
+              </Link>{" "}
               {project.description}
             </li>
           );
