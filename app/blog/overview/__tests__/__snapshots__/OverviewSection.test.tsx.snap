@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OverviewSection Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="my-6"
+  >
+    <h2
+      class="font-bold pb-2"
+    >
+      My Blog
+    </h2>
+    <p>
+      This is my blog, where I write about things that interest me.
+    </p>
+  </div>
+</DocumentFragment>
+`;
