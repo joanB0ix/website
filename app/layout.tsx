@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -47,10 +49,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${firaCode.variable} light:bg-white light:text-black dark:bg-black dark:text-white`}
+        className={`${firaCode.variable} light:bg-white light:text-black dark:bg-black dark:text-white h-screen flex flex-col font-fira-code w-2/5 min-w-96 px-4 m-auto scrollbar-hide overflow-y-scroll`}
       >
+        <Navbar />
         {children}
         <SpeedInsights />
+        <Footer />
       </body>
     </html>
   );

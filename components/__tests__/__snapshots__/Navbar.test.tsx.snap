@@ -3,12 +3,16 @@
 exports[`Navbar Should match snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="mt-5 h-56 flex items-center justify-between"
+    class="mt-5 h-[50px] min-h-[50px] flex items-center justify-between"
   >
     <h1
       class="font-bold"
     >
-      Joan Boix Àvalos
+      <a
+        href="/"
+      >
+        Joan Boix Àvalos
+      </a>
     </h1>
     <div
       data-testid="theme-toggle-button"

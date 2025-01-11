@@ -1,6 +1,6 @@
+import { Section } from "@/components/Section";
 import { Social } from "@/config/socialList";
 import Link from "next/link";
-import { Section } from "../../components/Section";
 
 export interface SocialsSectionProps {
   socialList: Social[];
