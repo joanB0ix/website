@@ -14,19 +14,21 @@ exports[`ProjectsSection Should match snapshot 1`] = `
       class="list-disc pl-6"
     >
       <li>
-        <span
+        <a
           class="underline"
+          href="url1"
         >
           Project One
-        </span>
+        </a>
          Description for Project One.
       </li>
       <li>
-        <span
+        <a
           class="underline"
+          href="url2"
         >
           Project Two
-        </span>
+        </a>
          Description for Project Two.
       </li>
     </ul>

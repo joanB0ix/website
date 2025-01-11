@@ -5,10 +5,12 @@ const PROJECT_LIST: ProjectSectionProps["projectList"] = [
   {
     title: "Project One",
     description: "Description for Project One.",
+    url: "url1",
   },
   {
     title: "Project Two",
     description: "Description for Project Two.",
+    url: "url2",
   },
 ];
 
