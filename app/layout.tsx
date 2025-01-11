@@ -48,6 +48,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Joan Boix",
+              url: "https://joanboix.dev",
+              sameAs: [
+                "https://github.com/joanB0ix",
+                "https://x.com/JoanBoixAv",
+                "https://www.linkedin.com/in/joanboixavalos/",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${firaCode.variable} light:bg-white light:text-black dark:bg-black dark:text-white h-screen flex flex-col font-fira-code w-2/5 min-w-96 px-4 m-auto scrollbar-hide overflow-y-scroll`}
       >

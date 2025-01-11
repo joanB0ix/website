@@ -6,6 +6,25 @@ import { EXPERIENCE_LIST } from "@/config/experienceList";
 import { PROJECT_LIST } from "@/config/projectList";
 import { SOCIAL_LIST } from "@/config/socialList";
 import { WHOAMI } from "@/config/whoami";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Joan Boix",
+  description:
+    "Welcome to my website! Here you can find my experience, portfolio and socials!",
+  openGraph: {
+    title: "Joan Boix",
+    description:
+      "Welcome to my website! Here you can find my experience, portfolio and socials!",
+    url: "https://joanboix.dev",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Joan Boix",
+    description: "Welcome to my website!",
+  },
+};
 
 export default function Home() {
   return (

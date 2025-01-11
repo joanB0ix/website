@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page metadata snapshot matches the expected metadata snapshot 1`] = `
+{
+  "description": "Welcome to my website! Here you can find my experience, portfolio and socials!",
+  "openGraph": {
+    "description": "Welcome to my website! Here you can find my experience, portfolio and socials!",
+    "title": "Joan Boix",
+    "type": "website",
+    "url": "https://joanboix.dev",
+  },
+  "title": "Joan Boix",
+  "twitter": {
+    "card": "summary_large_image",
+    "description": "Welcome to my website!",
+    "title": "Joan Boix",
+  },
+}
+`;

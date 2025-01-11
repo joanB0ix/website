@@ -2,6 +2,7 @@ import { render } from "@testing-library/react";
 
 import Home from "../page";
 
+jest.mock("../../../components/Navbar");
 jest.mock("../about/WhoamiSection");
 jest.mock("../about/SocialsSection");
 jest.mock("../experience/ExperienceSection");
