@@ -22,4 +22,9 @@ export const PROJECT_LIST: Project[] = [
     description: "A wrapper of the arXiv API made in Rust.",
     url: "https://github.com/joanB0ix/arxiv_wrapper",
   },
+  {
+    title: "rusthop",
+    description: "A url shortener made in Rust.",
+    url: "https://github.com/joanB0ix/rusthop",
+  },
 ];
